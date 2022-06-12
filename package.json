@@ -1,7 +1,7 @@
 {
-  "name": "starter-code",
+  "name": "abc-website",
   "version": "1.0.0",
-  "description": "strter basic code",
+  "description": "ABC webdesign company website",
   "main": "assets/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
