@@ -1,0 +1,71 @@
+body {
+  font-size: 10px;
+  color: var(--color-dark);
+  font-family: "Inter", "Open Sans", sans-serif;
+  background: var(--color-background);
+}
+
+h1 {
+  font-size: var(--font-size-1);
+}
+h2 {
+  font-size: var(--font-size-2);
+}
+h3 {
+  font-size: var(--font-size-3);
+}
+h4 {
+  font-size: var(--font-size-4);
+}
+h5 {
+  font-size: var(--font-size-5);
+}
+h6 {
+  font-size: var(--font-size-6);
+}
+
+a,
+a:hover {
+  cursor: pointer;
+  color: var(--color-light-dark);
+  text-decoration: none;
+}
+button {
+  transition: all 0.3s ease-in-out;
+}
+.btn,
+.btn:hover,
+.btn:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background: var(--color-light-dark);
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  border: 1px solid var(--color-light-dark) !important;
+  box-shadow: none !important;
+  background: var(--color-black);
+}
+input:focus,
+textarea:focus,
+select:focus {
+  box-shadow: none !important;
+  border: 1px solid var(--color-light-dark) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-light-dark);
+}
+
+/* Utilites Classes */
+small {
+  font-size: var(--font-size-xsmall);
+}
+.txt-muted {
+  color: var(--color-light-gray);
+}
