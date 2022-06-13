@@ -1,9 +1,7 @@
-@import url("./typography.css");
+@import url("./bootstrap.min.css");
 
 @import url("./variables.css");
 
-@import url("./bootstrap.min.css");
-
-@import url("./rest.css");
+/* @import url("./rest.css"); */
 
 @import url("./style.css");

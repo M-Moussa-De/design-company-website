@@ -1,6 +1,5 @@
 body {
-  font-size: 10px;
-  color: var(--color-dark);
+  color: var(--color-light-dark);
   font-family: "Inter", "Open Sans", sans-serif;
   background: var(--color-background);
 }
@@ -24,22 +23,33 @@ h6 {
   font-size: var(--font-size-6);
 }
 
-a,
-a:hover {
+p {
+  font-size: 1rem;
+  color: var(--color-light-gray);
+}
+a {
   cursor: pointer;
-  color: var(--color-light-dark);
+  color: var(--color-dark);
   text-decoration: none;
 }
+
 button {
   transition: all 0.3s ease-in-out;
 }
+.btn:focus,
+.btn:active,
 .btn,
-.btn:hover,
-.btn:focus {
-  outline: none;
+button:focus,
+button:active,
+button:visited {
+  outline: none !important;
+  box-shadow: none !important;
+}
+button.navbar-toggler,
+button.navbar-toggler:focus,
+button.navbar-toggler:active,
+button.navbar-toggler:visited {
   border: none;
-  box-shadow: none;
-  background: var(--color-light-dark);
 }
 
 input,

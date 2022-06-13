@@ -1,20 +1,19 @@
 :root {
-  --color-black: rgba(0 0 0 /0.9);
+  --color-black: #111111;
   --color-dark: #363949;
-  --color-light-dark: #7689a98c;
+  --color-light-dark: #777777;
   --color-white: #fff;
 
   --color-primary: rgb(219, 138, 222);
   --color-secondary: rgba(246, 191, 159, 1);
   --color-background: #f6f6f9;
 
-  --font-size-base: 10px;
-  --font-size-1: 2.5rem;
-  --font-size-2: 2.2rem;
-  --font-size-3: 2rem;
-  --font-size-4: 1.8rem;
-  --font-size-5: 1.7rem;
-  --font-size-6: 1.5rem;
+  --font-size-1: 2rem;
+  --font-size-2: 1.7rem;
+  --font-size-3: 1.5rem;
+  --font-size-4: 1.3rem;
+  --font-size-5: 1.1rem;
+  --font-size-6: 1rem;
   --font-size-small: 1.4rem;
 
   --transition-sm: 0.3s ease;
@@ -26,10 +25,10 @@
   --border-radius-lg: 0.7rem;
   --border-radius-xl: 50%;
 
-  --box-shadow-sm: 0 0.1rem 0.1rem var(--color-light-gray);
-  --box-shadow-md: 0 0.2rem 0.2rem var(--color-light-gray);
-  --box-shadow-lg: 0 0.3rem 0.3rem var(--color-light-gray);
-  --box-shadow-xl: 0 0.5rem 0.5rem var(--color-light-gray);
+  --box-shadow-sm: 0 0.1rem 0.3rem var(--color-primary);
+  --box-shadow-md: 0 0.2rem 0.5rem var(--color-primary);
+  --box-shadow-lg: 0 0.3rem 0.7rem var(--color-primary);
+  --box-shadow-xl: 0 0.5rem 1rem var(--color-primary);
 
   --bg-center: no-repeat center center / cover;
 }

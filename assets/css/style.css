@@ -1,0 +1,70 @@
+header {
+  background: url("../../assets/images/header-bg.png") var(--bg-center);
+  position: sticky;
+  top: 0;
+}
+
+header nav ul li a.nav-link {
+  color: var(--color-white);
+}
+header nav ul li a.nav-link:hover {
+  color: var(--color-primary);
+}
+
+/* Hero */
+main section.hero {
+  padding: 5rem 0;
+}
+
+main section.hero h6 {
+  color: var(--color-light-dark);
+  font-size: var(--font-size-5);
+  font-weight: 500;
+}
+
+main section.hero h2 {
+  font-size: 4rem;
+  color: var(--color-black);
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 3rem 0;
+}
+main section.hero h2 span {
+  color: var(--color-primary);
+}
+main section.hero a {
+  padding: 0.6rem 1.6rem;
+  background: linear-gradient(
+    to left,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  border: none;
+  color: var(--color-white);
+  text-transform: capitalize;
+  z-index: 100;
+}
+main section.hero a:hover {
+  color: var(--color-white);
+  box-shadow: var(--box-shadow-sm);
+}
+
+main section.hero .banner-img {
+  position: relative;
+}
+
+main section.hero .banner-img::after {
+  content: "";
+  background-image: url("../../assets/images/pseudo/banner.png");
+  width: 375px;
+  height: 375px;
+  position: absolute;
+  top: 9rem;
+  right: -5rem;
+}
+@media (max-width: 768px) {
+  main section.hero .banner-img::after {
+    top: -5rem;
+    right: -5rem;
+  }
+}
